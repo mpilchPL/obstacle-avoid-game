@@ -6,7 +6,6 @@ import com.obstacleavoid.v2.ObstacleAvoidGame
 import com.obstacleavoid.v2.config.GameConfig
 
 
-
 fun main(args: Array<String>) {
     val config = LwjglApplicationConfiguration()
     config.width = GameConfig.WIDTH
