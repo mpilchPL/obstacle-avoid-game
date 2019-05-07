@@ -11,6 +11,7 @@ fun Viewport.drawGrid(renderer: ShapeRenderer, cellSize: Int = 1) {
     val doubleWorldWidth = worldWidth * 2
     val doubleWorldHeight = worldHeight * 2
 
+    apply()
     renderer.use {
         renderer.color = Color.WHITE
         var x = -doubleWorldWidth

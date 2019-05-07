@@ -1,0 +1,48 @@
+
+gameplay.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 724, 656
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 2, 46
+  size: 373, 128
+  orig: 373, 128
+  offset: 0, 0
+  index: -1
+buttonSelected
+  rotate: false
+  xy: 724, 526
+  size: 373, 128
+  orig: 373, 128
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 2, 176
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+obstacle
+  rotate: false
+  xy: 1206, 1408
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 2, 2
+  size: 48, 42
+  orig: 48, 42
+  offset: 0, 0
+  index: -1
