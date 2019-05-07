@@ -26,7 +26,7 @@ class GameController {
     private val startPlayerY = 1f
     private var obstaclesTimer = 0f
     private val prefs: Preferences = Gdx.app.getPreferences(PrefsFields.PREF_FILE_NAME)
-    private var difficultyLevel = DifficultyLevel.MEDIUM
+    private var difficultyLevel = DifficultyLevel.valueOf(prefs.getString(PrefsFields.DIFFICULTY_FIELD))
 
     var lives = GameConfig.LIVES_START
         private set
@@ -43,6 +43,7 @@ class GameController {
 
     init {
         player.setPosition(startPlayerX, startPlayerY)
+        println(difficultyLevel)
     }
 
     fun update(delta: Float) {
